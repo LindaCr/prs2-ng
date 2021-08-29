@@ -1,0 +1,74 @@
+<div id="welcome">
+    <div class="card mb-3" style="max-width: 2000px;">
+      <div class="row g-0">
+        <div class="col-md-4">
+          <img
+            src="assets/P.png"
+            alt="..."
+            class="img-fluid"
+          />
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <p>Enter Username</p>
+            <p class="card-text">
+              <input [(ngModel)]='user.username' name='UserName' type='text'>
+            </p>
+            <p class="card-text">
+              <input [(ngModel)]='user.password' name='Password' type='password'>
+            </p>
+            <button type='submit' (click)="login()" class="btn btn-primary">Login</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+    
+    <!-- <div id="welcome">
+    <div class="card-group">
+      <div class="card" style="max-width: 380px;">
+        <img
+          src="assets/P.png"
+          class="card-img-top"
+          alt="..."
+        />
+        <div class="card-body">
+          <p>Enter Username</p>
+          <p class="card-text">
+            <input [(ngModel)]='user.username' name='UserName' type='text'>
+          </p>
+          <p>Enter Password</p>
+          <p class="card-text">
+            <input [(ngModel)]='user.password' name='Password' type='password'>
+          </p>
+          <button type='submit' (click)="login()" class="btn btn-primary">Login</button>
+        </div>
+      </div>
+      </div> -->
+    
+    <!-- <div class="welcome">
+        <h1>{{title}}</h1>
+      </div>
+      <div id="component-content"> 
+        <form class="text-center">
+          <table *ngIf='user' class="table-sm">
+            <tr>
+              <td>Username:</td>
+              <td><input [(ngModel)]='user.username' name='UserName' type='text'></td>
+            </tr>
+            <tr>
+              <td>Password:</td>
+              <td><input [(ngModel)]='user.password' name='Password' type='password'></td>
+            </tr>
+            <tr>
+              <td class="text-center" colspan="2">
+                <button type='submit' (click)="login()" class="btn btn-primary">Login</button>
+              </td>
+            </tr>
+            <tr>
+              <td colspan="2"><label class="text-sm-left text-danger">{{msg}}</label></td>
+            </tr>
+          </table>
+        </form>
+      </div> -->
+    
