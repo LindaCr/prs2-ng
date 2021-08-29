@@ -1,0 +1,11 @@
+#welcome{
+    display: flex;
+    height: 600px;
+    justify-content: center;
+    align-items: center;
+}
+#component-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -14,6 +14,20 @@ import { VendorListComponent } from './features/vendor/vendor-list/vendor-list.c
 import { VendorCreateComponent } from './features/vendor/vendor-create/vendor-create.component';
 import { VendorEditComponent } from './features/vendor/vendor-edit/vendor-edit.component';
 import { VendorDetailComponent } from './features/vendor/vendor-detail/vendor-detail.component';
+import { ProductListComponent } from './features/product/product-list/product-list.component';
+import { ProductCreateComponent } from './features/product/product-create/product-create.component';
+import { ProductEditComponent } from './features/product/product-edit/product-edit.component';
+import { ProductDetailComponent } from './features/product/product-detail/product-detail.component';
+import { RequestListComponent } from './features/request/request-list/request-list.component';
+import { RequestEditComponent } from './features/request/request-edit/request-edit.component';
+import { RequestCreateComponent } from './features/request/request-create/request-create.component';
+import { RequestDetailComponent } from './features/request/request-detail/request-detail.component';
+import { RequestLinesComponent } from './features/request/request-lines/request-lines.component';
+import { RequestReviewComponent } from './features/request/request-review/request-review.component';
+import { RequestApproveComponent } from './features/request/request-approve/request-approve.component';
+import { LineItemCreateComponent } from './features/line-item/line-item-create/line-item-create.component';
+import { LineItemEditComponent } from './features/line-item/line-item-edit/line-item-edit.component';
+import { MenuComponent } from './core/menu/menu.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +40,21 @@ import { VendorDetailComponent } from './features/vendor/vendor-detail/vendor-de
     VendorListComponent,
     VendorCreateComponent,
     VendorEditComponent,
-    VendorDetailComponent
+    VendorDetailComponent,
+    ProductListComponent,
+    ProductCreateComponent,
+    ProductEditComponent,
+    ProductDetailComponent,
+    RequestListComponent,
+    RequestEditComponent,
+    RequestCreateComponent,
+    RequestDetailComponent,
+    RequestLinesComponent,
+    RequestReviewComponent,
+    RequestApproveComponent,
+    LineItemCreateComponent,
+    LineItemEditComponent,
+    MenuComponent
   ],
   imports: [
     BrowserModule,
